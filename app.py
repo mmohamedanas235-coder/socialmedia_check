@@ -132,3 +132,5 @@ print("You can then make POST requests to /predict with JSON input.")
 # In a real deployment, you'd use a production-ready WSGI server like Gunicorn.
 # Uncomment the following line to run the app:
 # app.run(host='0.0.0.0', port=5000, debug=False)
+if __name__ == "__main__":
+    app.run(debug=True)
